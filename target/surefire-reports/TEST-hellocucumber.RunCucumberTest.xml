@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.528" tests="53" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Usuario\eclipse-workspace\ISA_Microwave\target\test-classes;C:\Users\Usuario\eclipse-workspace\ISA_Microwave\target\classes;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Usuario\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Usuario\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Usuario\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Usuario\AppData\Local\Temp\surefire6392046074289881032\surefirebooter16133524088863922785.jar C:\Users\Usuario\AppData\Local\Temp\surefire6392046074289881032 2022-06-09T21-34-05_917-jvmRun1 surefire677436092113793476tmp surefire_03913821543504325894tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Usuario\eclipse-workspace\ISA_Microwave\target\test-classes;C:\Users\Usuario\eclipse-workspace\ISA_Microwave\target\classes;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Usuario\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Usuario\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Usuario\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Usuario\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Usuario"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Usuario\eclipse-workspace\ISA_Microwave"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Usuario\AppData\Local\Temp\surefire6392046074289881032\surefirebooter16133524088863922785.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="Usuario"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Usuario\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Usuario\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\Usuario\eclipse-workspace\ISA_Microwave"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Usuario\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Usuario\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Git\cmd;C:\Users\Usuario\OneDrive\Documentos\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Open a closed microwave" classname="Closed full microwave" time="0.084">
+    <system-out><![CDATA[
+Scenario: Open a closed microwave &amp#27;[90m# hellocucumber/ClosedWithItem.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m     &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mopen the door&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.openDoor()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdoor opens&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.doorOpens()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns on&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.lightOn()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m          &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reset power" classname="Closed full microwave" time="0.016">
+    <system-out><![CDATA[
+Scenario: Reset power         &amp#27;[90m# hellocucumber/ClosedWithItem.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset power&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.resetPower()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpower is zero&amp#27;[0m          &amp#27;[90m# hellocucumber.StepDefinitions.powerZero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reset timer" classname="Closed full microwave" time="0.007">
+    <system-out><![CDATA[
+Scenario: Reset timer         &amp#27;[90m# hellocucumber/ClosedWithItem.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset timer&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.resetTimer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtimer is zero&amp#27;[0m          &amp#27;[90m# hellocucumber.StepDefinitions.timerZero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Try to cook" classname="Closed full microwave" time="0.016">
+    <system-out><![CDATA[
+Scenario: Try to cook           &amp#27;[90m# hellocucumber/ClosedWithItem.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstart cooking&amp#27;[0m             &amp#27;[90m# hellocucumber.StepDefinitions.startCooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave starts cooking&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.StartCooking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Set the timer &amp#27;[90m# hellocucumber/ClosedWithItem.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario Outline: Set the power &amp#27;[90m# hellocucumber/ClosedWithItem.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set the timer &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set the power &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set timer   &amp#27;[90m# hellocucumber/OpenWithItem.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m    &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Set power   &amp#27;[90m# hellocucumber/OpenWithItem.feature:52&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m    &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set timer    &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m     &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set power    &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:52&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m     &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.011">
+    <system-out><![CDATA[
+Scenario Outline: cooking stop if timer finishes &amp#27;[90m# hellocucumber/cooking.feature:76&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m                    &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                       &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m                         &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstart cooking&amp#27;[0m                              &amp#27;[90m# hellocucumber.StepDefinitions.startCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mtimer goes down &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.timePasses(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave isnt cooking&amp#27;[0m                    &amp#27;[90m# hellocucumber.StepDefinitions.notCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns off&amp#27;[0m                            &amp#27;[90m# hellocucumber.StepDefinitions.lightOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m                         &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                                &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mbeeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                      &amp#27;[90m# hellocucumber.StepDefinitions.soundTimes(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"Listo"&amp#27;[0m                      &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Set the timer &amp#27;[90m# hellocucumber/ClosedWithItem.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Set the power &amp#27;[90m# hellocucumber/ClosedWithItem.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Set the timer &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set the power &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set timer   &amp#27;[90m# hellocucumber/OpenWithItem.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m     &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Set power   &amp#27;[90m# hellocucumber/OpenWithItem.feature:53&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m     &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Set timer    &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set power    &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:53&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: cooking stop if timer finishes &amp#27;[90m# hellocucumber/cooking.feature:77&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m                    &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                       &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                       &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstart cooking&amp#27;[0m                              &amp#27;[90m# hellocucumber.StepDefinitions.startCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mtimer goes down &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.timePasses(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave isnt cooking&amp#27;[0m                    &amp#27;[90m# hellocucumber.StepDefinitions.notCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns off&amp#27;[0m                            &amp#27;[90m# hellocucumber.StepDefinitions.lightOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m                         &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                                &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mbeeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                      &amp#27;[90m# hellocucumber.StepDefinitions.soundTimes(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"Listo"&amp#27;[0m                      &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Set the timer &amp#27;[90m# hellocucumber/ClosedWithItem.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: Set the power &amp#27;[90m# hellocucumber/ClosedWithItem.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set the timer &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Set the power &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Set timer   &amp#27;[90m# hellocucumber/OpenWithItem.feature:43&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m     &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Set power   &amp#27;[90m# hellocucumber/OpenWithItem.feature:54&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m     &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Set timer    &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:43&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Set power    &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:54&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: cooking stop if timer finishes &amp#27;[90m# hellocucumber/cooking.feature:78&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m                    &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                       &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m                        &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstart cooking&amp#27;[0m                              &amp#27;[90m# hellocucumber.StepDefinitions.startCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mtimer goes down &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.timePasses(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave isnt cooking&amp#27;[0m                    &amp#27;[90m# hellocucumber.StepDefinitions.notCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns off&amp#27;[0m                            &amp#27;[90m# hellocucumber.StepDefinitions.lightOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m                         &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                                &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mbeeper sounds &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m                      &amp#27;[90m# hellocucumber.StepDefinitions.soundTimes(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"Listo"&amp#27;[0m                      &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Open a closed microwave" classname="Closed empty microwave" time="0.008">
+    <system-out><![CDATA[
+Scenario: Open a closed microwave &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m    &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mopen the door&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.openDoor()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdoor opens&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.doorOpens()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns on&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.lightOn()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m          &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reset power" classname="Closed empty microwave" time="0.006">
+    <system-out><![CDATA[
+Scenario: Reset power          &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset power&amp#27;[0m             &amp#27;[90m# hellocucumber.StepDefinitions.resetPower()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpower is zero&amp#27;[0m           &amp#27;[90m# hellocucumber.StepDefinitions.powerZero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reset timer" classname="Closed empty microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Reset timer          &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset timer&amp#27;[0m             &amp#27;[90m# hellocucumber.StepDefinitions.resetTimer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtimer is zero&amp#27;[0m           &amp#27;[90m# hellocucumber.StepDefinitions.timerZero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Try to cook" classname="Closed empty microwave" time="0.014">
+    <system-out><![CDATA[
+Scenario: Try to cook                 &amp#27;[90m# hellocucumber/ClosedWithNoItem.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed empty microwave&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.closedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m             &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstart cooking&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.startCooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave doesnt start cooking&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.notStartCooking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Remove food from the microwave" classname="Opened full microwave" time="0.004">
+    <system-out><![CDATA[
+Scenario: Remove food from the microwave &amp#27;[90m# hellocucumber/OpenWithItem.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mremove food&amp#27;[0m                       &amp#27;[90m# hellocucumber.StepDefinitions.removeFood()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave is empty&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.isEmpty()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Close an opened microwave" classname="Opened full microwave" time="0.006">
+    <system-out><![CDATA[
+Scenario: Close an opened microwave &amp#27;[90m# hellocucumber/OpenWithItem.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclose the door&amp#27;[0m               &amp#27;[90m# hellocucumber.StepDefinitions.closeDoor()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdoor closes&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.doorCloses()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns off&amp#27;[0m               &amp#27;[90m# hellocucumber.StepDefinitions.lightOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reset power" classname="Opened full microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Reset power         &amp#27;[90m# hellocucumber/OpenWithItem.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset power&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.resetPower()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpower is zero&amp#27;[0m          &amp#27;[90m# hellocucumber.StepDefinitions.powerZero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reset timer" classname="Opened full microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Reset timer         &amp#27;[90m# hellocucumber/OpenWithItem.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset timer&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.resetTimer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtimer is zero&amp#27;[0m          &amp#27;[90m# hellocucumber.StepDefinitions.timerZero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Try to cook" classname="Opened full microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Try to cook                 &amp#27;[90m# hellocucumber/OpenWithItem.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened full microwave&amp#27;[0m         &amp#27;[90m# hellocucumber.StepDefinitions.openedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m             &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstart cooking&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.startCooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave doesnt start cooking&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.notStartCooking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Place food in the microwave" classname="Opened empty microwave" time="0.003">
+    <system-out><![CDATA[
+Scenario: Place food in the microwave &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mplace food&amp#27;[0m                     &amp#27;[90m# hellocucumber.StepDefinitions.placeFood()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave is full&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.isFull()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Close an opened microwave" classname="Opened empty microwave" time="0.004">
+    <system-out><![CDATA[
+Scenario: Close an opened microwave &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m      &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclose the door&amp#27;[0m               &amp#27;[90m# hellocucumber.StepDefinitions.closeDoor()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdoor closes&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.doorCloses()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns off&amp#27;[0m               &amp#27;[90m# hellocucumber.StepDefinitions.lightOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reset power" classname="Opened empty microwave" time="0.003">
+    <system-out><![CDATA[
+Scenario: Reset power          &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset power&amp#27;[0m             &amp#27;[90m# hellocucumber.StepDefinitions.resetPower()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpower is zero&amp#27;[0m           &amp#27;[90m# hellocucumber.StepDefinitions.powerZero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reset timer" classname="Opened empty microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Reset timer          &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset timer&amp#27;[0m             &amp#27;[90m# hellocucumber.StepDefinitions.resetTimer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtimer is zero&amp#27;[0m           &amp#27;[90m# hellocucumber.StepDefinitions.timerZero()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Try to cook" classname="Opened empty microwave" time="0.005">
+    <system-out><![CDATA[
+Scenario: Try to cook                 &amp#27;[90m# hellocucumber/OpenWithNoItem.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mopened empty microwave&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.openedEmpty()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m             &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstart cooking&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.startCooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave doesnt start cooking&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.notStartCooking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="start cooking" classname="microwave cooking" time="0.007">
+    <system-out><![CDATA[
+Scenario: start cooking         &amp#27;[90m# hellocucumber/cooking.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclosed full microwave&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.closedFull()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mset the power to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.setPower(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mset the timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m        &amp#27;[90m# hellocucumber.StepDefinitions.setTimer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstart cooking&amp#27;[0m             &amp#27;[90m# hellocucumber.StepDefinitions.startCooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave starts cooking&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.StartCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns on&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.lightOn()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating on&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.heatingOn()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable turns&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.turnableT()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="increase power" classname="microwave cooking" time="0.003">
+    <system-out><![CDATA[
+Scenario: increase power                          &amp#27;[90m# hellocucumber/cooking.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcooking microwave with &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m power and &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m time&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.cooking(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mincrease power&amp#27;[0m                             &amp#27;[90m# hellocucumber.StepDefinitions.incPower()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"6"&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="decrease power" classname="microwave cooking" time="0.004">
+    <system-out><![CDATA[
+Scenario: decrease power                          &amp#27;[90m# hellocucumber/cooking.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcooking microwave with &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m power and &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m time&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.cooking(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mdecrease power&amp#27;[0m                             &amp#27;[90m# hellocucumber.StepDefinitions.decPower()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"4"&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="increase timer" classname="microwave cooking" time="0.003">
+    <system-out><![CDATA[
+Scenario: increase timer                          &amp#27;[90m# hellocucumber/cooking.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcooking microwave with &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m power and &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m time&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.cooking(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mincrease timer&amp#27;[0m                             &amp#27;[90m# hellocucumber.StepDefinitions.incTimer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"6"&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="decrease timer" classname="microwave cooking" time="0.003">
+    <system-out><![CDATA[
+Scenario: decrease timer                          &amp#27;[90m# hellocucumber/cooking.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcooking microwave with &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m power and &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m time&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.cooking(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mdecrease timer&amp#27;[0m                             &amp#27;[90m# hellocucumber.StepDefinitions.decTimer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"4"&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="stop cooking after resetting the power" classname="microwave cooking" time="0.005">
+    <system-out><![CDATA[
+Scenario: stop cooking after resetting the power  &amp#27;[90m# hellocucumber/cooking.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcooking microwave with &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m power and &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m time&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.cooking(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset power&amp#27;[0m                                &amp#27;[90m# hellocucumber.StepDefinitions.resetPower()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave isnt cooking&amp#27;[0m                     &amp#27;[90m# hellocucumber.StepDefinitions.notCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                                 &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns off&amp#27;[0m                             &amp#27;[90m# hellocucumber.StepDefinitions.lightOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m                           &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="stop cooking after resetting the timer" classname="microwave cooking" time="0.005">
+    <system-out><![CDATA[
+Scenario: stop cooking after resetting the timer  &amp#27;[90m# hellocucumber/cooking.feature:43&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcooking microwave with &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m power and &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m time&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.cooking(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mreset timer&amp#27;[0m                                &amp#27;[90m# hellocucumber.StepDefinitions.resetTimer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmicrowave isnt cooking&amp#27;[0m                     &amp#27;[90m# hellocucumber.StepDefinitions.notCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                                 &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns off&amp#27;[0m                             &amp#27;[90m# hellocucumber.StepDefinitions.lightOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplay shows &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m                           &amp#27;[90m# hellocucumber.StepDefinitions.displayShows(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="stop cooking if the door is opened" classname="microwave cooking" time="0.005">
+    <system-out><![CDATA[
+Scenario: stop cooking if the door is opened      &amp#27;[90m# hellocucumber/cooking.feature:52&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcooking microwave with &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m power and &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m time&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.cooking(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mopen the door&amp#27;[0m                              &amp#27;[90m# hellocucumber.StepDefinitions.openDoor()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdoor opens&amp#27;[0m                                 &amp#27;[90m# hellocucumber.StepDefinitions.doorOpens()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mmicrowave isnt cooking&amp#27;[0m                      &amp#27;[90m# hellocucumber.StepDefinitions.notCooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mheating off&amp#27;[0m                                 &amp#27;[90m# hellocucumber.StepDefinitions.heatingOff()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlight turns on&amp#27;[0m                              &amp#27;[90m# hellocucumber.StepDefinitions.lightOn()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mturnable not turns&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.turnableNT()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
